@@ -1,0 +1,18 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "lab6.h": "c",
+        "stdlib.h": "c",
+        "limits.h": "c",
+        "time.h": "c",
+        "stdio.h": "c",
+        "errno.h": "c",
+        "lab7.h": "c",
+        "locale.h": "c",
+        "stddef.h": "c",
+        "homework3.h": "c",
+        "stdbool.h": "c",
+        "limits": "c"
+    },
+    "C_Cpp.default.compilerPath": "C:/w64devkit/bin/gcc.exe",
+}

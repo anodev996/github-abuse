@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "lab6.h": "c",
+        "stdlib.h": "c"
+    },
+    "C_Cpp.default.compilerPath": "C:/w64devkit/bin/gcc.exe",
+}

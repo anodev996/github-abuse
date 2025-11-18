@@ -1,0 +1,7 @@
+# c projects
+*.o
+*.a
+*.exe
+
+# java projects
+*.class

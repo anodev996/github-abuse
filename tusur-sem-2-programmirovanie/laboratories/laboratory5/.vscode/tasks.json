@@ -1,0 +1,27 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+
+    //"executablePath": "./build/main_sort.exe",
+    "tasks": [
+        {
+            "label": "build && tree",
+            "type": "shell",
+            "command": "make --trace && tree -C",
+        },
+
+        {
+            "label": "build && run",
+            "type": "shell",
+            "command": "make --trace && ./build/lab5_main.exe",
+            //"command": "make --trace && ./build/lab5_main.exe",
+        },
+
+        {
+            "label": "clean && tree",
+            "type": "shell",
+            "command": "make clean && tree -C",
+        },
+    ]
+}

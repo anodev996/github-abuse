@@ -1,0 +1,49 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+
+    "tasks": [
+        /*
+        {
+            "label": "build && tree",
+            "type": "shell",
+            "command": "make --trace && tree -C",
+        },
+        */
+
+        {
+            "label": "build && tree",
+            "type": "shell",
+            "command": "gcc -Wall -Wextra -std=c99 -ggdb ./main.c -o ./main.exe && tree -C",
+        },
+
+        /*
+        {
+            "label": "build && run",
+            "type": "shell",
+            "command": "make --trace && ./build/main.exe",
+        },
+        */
+
+        {
+            "label": "build && run",
+            "type": "shell",
+            "command": "gcc -Wall -Wextra -std=c99 -ggdb ./main.c -o ./main.exe && ./main.exe",
+        },
+
+        /*
+        {
+            "label": "clean && tree",
+            "type": "shell",
+            "command": "make clean && tree -C",
+        },
+        */
+
+        {
+            "label": "clean && tree",
+            "type": "shell",
+            "command": "rm ./main.exe && tree -C",
+        },
+    ]
+}
